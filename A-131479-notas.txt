@@ -34,3 +34,7 @@ git add index.html js/script.js css/style.css
 git add .
 git commit -m "5ª tarefa cumprida"
 git push origin main
+git add A-131479-notas
+git add A-131479-notas.txt
+git commit -m "6ª tarefa cumprida"
+git push origin main
