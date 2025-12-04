@@ -1,0 +1,36 @@
+NOME:Leonardo Rafael Goncalves Mendes
+NMEC:131479
+
+Máquina remota
+
+git remote add origin https://github.com/suzu-bot/LI2025-Teste04.git
+mkdir LI2025-Teste04
+cd LI2025-Teste04
+mkdir -p js css
+cd js
+echo //ficheiro\ de\ script > script.js
+echo "/* ficheiro de estilos */" > ../css/style.css
+cd ..
+pwd
+git add .
+git commit -m "2ª tarefa concluída: pastas js e css criadas."
+git push -u origin main
+git push -u origin main
+
+-----------------------------------------------------
+
+Máquina local
+
+git clone https://github.com/suzu-bot/LI2025-Teste04.git
+cd LI2025-Teste04
+code .
+pwd
+git add index.html
+git commit -m "3ª tarefa concluída"git add .
+git push origin main
+git add index.html css/style.css js/script.js
+git commit -m "4ª tarefa"
+git add index.html js/script.js css/style.css
+git add .
+git commit -m "5ª tarefa cumprida"
+git push origin main
