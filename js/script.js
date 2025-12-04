@@ -1,5 +1,2 @@
-//ficheiro de script
-document.addEventListener('DOMContentLoaded', function () {
-  const btn = document.getElementById('btnDemo');
-  if (btn) btn.addEventListener('click', () => alert('Botão funciona!'));
-});
+// Script do formulário — pode adicionar funcionalidades aqui
+console.log("Página carregada.");
